@@ -12,7 +12,7 @@
 I start new page of my life and my goal is to find a new exciting sphere to realize my abilities. I have been doing my own business for 5 years, I owned food store. I got a lot of experience in communication and process setting. I like to learn something new and set new challenges for myself. I hope to find my passion in the field of front-end development.
 
 
-*My strengths:*
+*My strengths*:
 -Leadership skills
 -Teamwork
 -Effective communication
@@ -26,7 +26,7 @@ I start new page of my life and my goal is to find a new exciting sphere to real
 -Quick learner
 -Team playing
 
-*Skills*
+### Skills:
 *HTML, CSS
 *JavaScript (Fundamentals, ES6+, DOM, JSON)
 *Git/GitHub
@@ -49,9 +49,21 @@ alert( sorted );
 alert( arr );
 ```
 
-### Education
+### Education:
+*Belarusian State Economic University, Minsk, Republic of Belarus - 2012-2014
+Profession: Jurist
+*Belarusian State Economic University, Minsk, Republic of Belarus - 2009-2013
+Profession: Economist – Manager
 
+### Languages:
+*Russian - native speaker
+*English - A2 (B1 in process…)
 
-### Languages
-Russian - native speaker.
-English - A2 (B1 in process…)
+## English
+>General English Language Cours at **Upper Intermediate** level (B2) in Chamber College, Malta - august 2012
+
+### Experience:
+-Own business (food store) LLC "Glory-M Trade" - 2016-2021
+-Manager State Enterprise «Belarustorg» - 2013-2016
+-**Foreign economic relations specialist** "Minsk Tractor Works" - august 2012- november 2013
+
