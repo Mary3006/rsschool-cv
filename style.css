@@ -11,7 +11,7 @@ ul {
 }
 
 h1 {
-    color: #046b5d;
+    color: #04456b;
     margin: 0;
 }
 
@@ -148,9 +148,13 @@ hr {
 }
 
 
-.code {
-    font-size: 1.5em;
-    font-weight: bold;
+.code_example_wrapper {
+    background-color: rgb(236, 231, 231);
+    margin: 0;
+}
+
+.html {
+    margin: 0;
 }
 
 
