@@ -4,19 +4,67 @@
     <meta charset="UTF-8">
     <title>CV</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script> -->
 </head>
 <body>
-<div class="wrapper">
-    <header class="header">
-        <h1>Resume</h1>
-    </header>
+
+<header class="header">
+  <div class="wrapper">
+    <div class="top">
+        <h1>RESUME</h1>
+    </div>
+    <div class="header__burger">
+        <div class="container-burger" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+    <nav class="header__menu">
+        <ul>
+            <li class="contacts">
+                <a href="#contacts" class="contacts__link smooth-scroll">Contacts</a>
+            </li>
+            <li class="summary">
+                <a href="#summary" class="smooth-scroll">Summary</a>
+            </li>
+            <li class="education">
+                <a href="#education-info" class="education__link smooth-scroll">Education</a>
+            </li>
+            <li class="skills">
+                <a href="#skills-info" class="skills__link smooth-scroll">Skills</a>
+            </li>
+            <li class="languages">
+                <a href="#languages-info" class="smooth-scroll">Languages</a>
+            </li>
+            <li class="english">
+                <a href="#english" class="smooth-scroll">English</a>
+            </li>
+            <li class="code-example">
+                <a href="#code_example" class="code-example__link smooth-scroll">Code example</a>
+            </li>
+        </ul>
+
+     </nav>
+ </div>
+</header>
+
 
     <main class="main">
-        <div class="main__info">
+        <div class="wrapper">
+            <div class="container">
+                <aside class="container-left">
+                    <div class="container-left_img">
+
             <img class="photo" src="./img/photo.jpeg" alt="photo"/>
             <h2>Maria Melnikova</h2>
+                    </div>
 
-            <section>
+                    <div class="contacts">
+                        <div class="anchor" id="contacts"></div>
                 <h3>Contacts:</h3>
                 <ul>
                     <li>Phone: +375(29)616-51-51</li>
@@ -25,24 +73,40 @@
                     <li>GitHub: Mary3006</li>
                     <li>Discord: Mary3006</li>
                 </ul>
-            </section>
-        </div>
+                    </div>
+                </aside>
     
+                <div class="container-right">
+                    <section class="summary">
+                        <div class="anchor" id="summary"></div>
+                        <h3>Summary:</h3>
+                        <hr>
+                        <p>I start new page of my life and my goal is to find a new exciting sphere to realize my abilities.
+                         I have been doing my own business for 5 years, I owned food store.
+                         I got a lot of experience in communication and process setting.
+                         I like to learn something new and set new challenges for myself.
+                         I hope to find my passion in the field of front-end development.
+                        </p>
+                        </section>
         
-        <div class="information">
-            <div class="information__first">
-                <div class="education">
+                        <section class="education-info">
+                            <div class="anchor smooth-scroll" id="education-info"></div>
                     <h3>Education:</h3>
-                    <p>Belarusian State Economic University, Minsk,<br>
-                         Republic of Belarus - 2012-2014<br>
-                          Profession: Jurist</p>
-                    <p>Belarusian State Economic University, Minsk,<br>
-                         Republic of Belarus - 2009-2013<br>
-                          Profession: Economist – Manager</p>
-                </div>
+                    <hr>
+                    <dl>
+                    <dt>-Belarusian State Economic University,</dt>
+                         <dd>Minsk, of Belarus - 2012-2014</dd>
+                         <dd>Profession: Jurist</dd>
+                    <dt>-Belarusian State Economic University,</dt>
+                         <dd>Minsk, of Belarus - 2009-2013</dd>
+                         <dd>Profession:  Economist – Manager</dd>
+                    </dl>
+                        </section>
 
-                <div class="skills">
+                <section class="skills">
+                    <div class="anchor" id="skills-info"></div>
                     <h3>Skills:</h3>
+                    <hr>
                     <ul>
                         <li>Basics of HTML, CSS</li>
                         <li>JavaScript (Fundamentals, ES6+, DOM, JSON)</li>
@@ -51,60 +115,65 @@
                         <li>Windows OS</li>
                         <li>Basics of Figma and Miro</li>
                     </ul>
-                </div>
+                    </section>
 
-                <div class="languages">
-                    <h3>Languages:</h3>
+                    <section class="languages-info">
+                     <div class="anchor" id="languages-info"></div>
+                     <h3>Languages:</h3>
+                     <hr>
                     <ul>
                         <li>Russian(as native)</li>
                         <li>English (A2)</li>
                     </ul>
-                </div>
+                    </section>
 
-                <div class="english">
-                    <h4>English:</h4>
-                    <p>General English Language Cours at Upper Intermediate level (B2) in Chamber College, Malta - august 2012  
-                    </p>
-                </div>
-            </div>
+                    <section class="english-info">
+                        <div class="anchor" id="english"></div>
+                        <div class="english-education">
+    
+                            <div class="english__description">
+                                <h4>English:</h4>
+                                <hr>
+                                <p>General English Language Cours at Upper Intermediate level (B2) in Chamber College, Malta - august 2012  
+                                </p>
+                            </div>
+                            
+                        </div>
+    
+                    </section>
 
-            <div class="information-second">
-                <h3>Summary:</h3>
-                <p>I start new page of my life and my goal is to find a new exciting sphere to realize my abilities.<br>
-                 I have been doing my own business for 5 years, I owned food store.<br>
-                 I got a lot of experience in communication and process setting.<br>
-                 I like to learn something new and set new challenges for myself. <br>
-                 I hope to find my passion in the field of front-end development. </p>
-            </div>
-
-
-            <div class="code_example">
-                    <article class="code">
+            <section class="code_example">
+                <div class="anchor" id="code_example"></div>
                         <h4>Code example:</h4>
-                    </article>
-                    
-                    <div>
+                    <hr>                    
+                    <div class="code_example_wrapper">
                         <pre>
-                            <code>
-                    function copySorted(arr) {
-                        return arr.slice().sort();
-                    }
-                    let arr = ["HTML", "JavaScript", "CSS"];
-                    let sorted = copySorted(arr);
-                    alert( sorted );
-                    alert( arr );
+            <code class="html">
+
+            function copySorted(arr) {
+                return arr.slice().sort();
+                }
+            let arr = ["HTML", "JavaScript", "CSS"];
+            let sorted = copySorted(arr);
+            alert( sorted );
+            alert( arr );
                              </code>
                         </pre>
                     </div>
+            </section>
             </div>
         </div>
-        <footer class="footer">
-            <a href="https://rs.school/js/">RS</a>
-            <a href="https://github.com/Mary3006">GitHub</a>
-            <img src="./img/logo.png" alt="logo" class="logo">
-            <span>2021</span>
-        </footer>
+        </div>
     </main>
-</div>
+        <footer class="footer">
+            <div class="wrapper">
+            <div><a href="https://rs.school/js/">RS</a></div>
+            <div><a href="https://github.com/Mary3006">GitHub</a></div>
+            <div><img src="./img/logo.png" alt="logo" class="logo"></div>
+            <div>2021</div>
+            </div>
+        </footer>
+
+        <script src="index.js"></script>
 </body>
 </html>
