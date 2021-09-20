@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
 <div class="wrapper">
     <header class="header">
+        <h1>Resume</h1>
     </header>
 
     <main class="main">
         <div class="main__info">
-            <h1>Maria Melnikova</h1>
+            <img class="photo" src="./img/photo.jpeg" alt="photo"/>
+            <h2>Maria Melnikova</h2>
 
-            </div>
             <section>
-                <h2>Contacts:</h2>
+                <h3>Contacts:</h3>
                 <ul>
                     <li>Phone: +375(29)616-51-51</li>
                     <li>Telegram: +375(29)616-51-51</li>
@@ -25,13 +27,18 @@
                 </ul>
             </section>
         </div>
+    
         
         <div class="information">
             <div class="information__first">
                 <div class="education">
                     <h3>Education:</h3>
-                    <p>Belarusian State Economic University, Minsk, Republic of Belarus - 2012-2014 Profession: Jurist</p>
-                    <p>Belarusian State Economic University, Minsk, Republic of Belarus - 2009-2013 Profession: Economist – Manager</p>
+                    <p>Belarusian State Economic University, Minsk,<br>
+                         Republic of Belarus - 2012-2014<br>
+                          Profession: Jurist</p>
+                    <p>Belarusian State Economic University, Minsk,<br>
+                         Republic of Belarus - 2009-2013<br>
+                          Profession: Economist – Manager</p>
                 </div>
 
                 <div class="skills">
@@ -49,7 +56,7 @@
                 <div class="languages">
                     <h3>Languages:</h3>
                     <ul>
-                        <li>Russian(native)</li>
+                        <li>Russian(as native)</li>
                         <li>English (A2)</li>
                     </ul>
                 </div>
@@ -61,22 +68,24 @@
                 </div>
             </div>
 
-            <div class="info info-size">
+            <div class="information-second">
                 <h3>Summary:</h3>
-                <p>I start new page of my life and my goal is to find a new exciting sphere to realize my abilities.
-                 I have been doing my own business for 5 years, I owned food store.
-                 I got a lot of experience in communication and process setting. 
-                 I like to learn something new and set new challenges for myself. 
+                <p>I start new page of my life and my goal is to find a new exciting sphere to realize my abilities.<br>
+                 I have been doing my own business for 5 years, I owned food store.<br>
+                 I got a lot of experience in communication and process setting.<br>
+                 I like to learn something new and set new challenges for myself. <br>
                  I hope to find my passion in the field of front-end development. </p>
             </div>
 
 
-            <div class="code_examples">
-                <details>
-                    <summary class="code">Code examples:</summary>
+            <div class="code_example">
+                    <article class="code">
+                        <h4>Code example:</h4>
+                    </article>
                     
                     <div>
-                        ```
+                        <pre>
+                            <code>
                     function copySorted(arr) {
                         return arr.slice().sort();
                     }
@@ -84,15 +93,15 @@
                     let sorted = copySorted(arr);
                     alert( sorted );
                     alert( arr );
-                    ```
+                             </code>
+                        </pre>
                     </div>
-                </details>
             </div>
         </div>
         <footer class="footer">
             <a href="https://rs.school/js/">RS</a>
             <a href="https://github.com/Mary3006">GitHub</a>
-            <img src="./img/rs_school_js.svg" alt="logo" class="logo">
+            <img src="./img/logo.png" alt="logo" class="logo">
             <span>2021</span>
         </footer>
     </main>
