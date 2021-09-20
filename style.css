@@ -52,3 +52,29 @@
 .logo {
     width: 50px;
 }
+
+.header__burger {
+    display: none;
+}
+.header .header__menu ul {
+    display: flex;
+}
+
+.header .header__menu li {
+    list-style: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+
+.header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.header a:hover {
+    text-decoration: underline 1px black;
+    cursor: pointer;
+
+}
